@@ -1,0 +1,21 @@
+{
+  "name": "bestsea-api",
+  "version": "1.0.0",
+  "description": "BestSea backend: climatology data + comfort rankings API",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.3.0"
+  }
+}
